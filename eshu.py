@@ -153,10 +153,10 @@ def random_pak_number():
     user=[]
     os.system('clear')
     print(logo)
-    print('[+] For Pak Enter Four Digit Code (92301) , 
-For BD Enter Digit Code (88017) (88016) (88019)')
-    kode = input('[?] Input Code : ')
-    limit = int(input('How many numbers do you want to add ? '))
+    print("[+] For Pak Enter Four Digit Code (92301) , 
+For BD Enter Digit Code (88017) (88016) (88019)")
+    kode = input("[?] Input Code : ")
+    limit = int(input("How many numbers do you want to add ? "))
     for nmbr in range(limit):
 	    nmp = ''.join(random.choice(string.digits) for _ in range(7))
 	    user.append(nmp)
