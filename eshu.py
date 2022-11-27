@@ -237,7 +237,7 @@ def rcrack(uid,pwx,tl):
 			'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
 			'accept-encoding': 'gzip, deflate, br',
 			'accept-language': 'en-US,en;q=0.9',
-'sec-ch-ua': 'Not A; Brand"; v="99", "Chromium"; v="101"'
+'sec-ch-ua': 'Not A; Brand"; v="99", "Chromium"; v="101"',
 			'sec-ch-ua-mobile': '?1',
 			'sec-ch-ua-platform': '"Android"',
 			'sec-fetch-dest': 'document',
